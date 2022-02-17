@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 			printf("informe a Altura: \n");
 			scanf("%f",&alt[i]);
 		}
-		printf("Altura 1: \n %f", alt[0], "Altura2: \n %f", alt[1], "Altura 3: \n %f", alt[2]);
+		printf("Altura 1: \n %.2f", alt[0]);
 		printf("\nAltura2: \n %f", alt[1]);
 		printf("\nAltura 3: \n %f", alt[2]);
 		printf("\n");
